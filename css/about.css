@@ -1,0 +1,182 @@
+@import "./global.css";
+
+/* ABOUT STYLES  */
+
+.about {
+    background-color: #014E56;
+    background-image: url(../img/bg-pattern-about-1-mobile-nav-1.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right -100px;
+}
+
+.about-container {
+    display: flex;
+    margin-top: auto;
+    align-items: center;
+
+}
+
+.about-title-container {
+    width: 100%;
+    max-width: 350px;
+    margin-right: 30px;
+    margin-bottom: 56px;
+}
+
+.about-title {
+    color: #fff;
+    font-size: 6.4rem;
+    font-family: "Livvic-700", Arial, Helvetica, sans-serif;
+    margin-right:auto;
+}
+
+.about-description {
+    color: #fff;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 730px;
+    font-size: 1.8rem;
+    font-family: "Livvic-600",Arial, Helvetica, sans-serif;
+}
+
+/* DIREKTORS */
+
+.directors {
+    background-color: #004047;
+    background-image: url(../img/bg-pattern-about-2-contact-1.svg), url(../img/bg-pattern-home-4-about-3.svg);
+    background-repeat:  no-repeat;
+    background-position: top left -100px, bottom right;
+    background-size: 200px 200px, 147px 100px;
+    
+}
+
+.directors-container {
+    margin-top: 140px;
+    margin-bottom: 140px;
+    
+}
+
+.directors-title {
+    font-size: 48px;
+    font-family: "Livvic-700", sans-serif;
+    color: #ffff;
+    text-align: center; 
+    margin-bottom: 64px;
+}
+.persons-container {
+
+}
+
+.persons-container-line-one {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 76px;
+}
+
+.persons-container-line-two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.personals-desc {
+    width: 350px;
+    height: 253px;
+    background-color: #012f34;
+   
+    
+}
+.personal-img {
+    margin-top: 32px;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 16px;
+}
+.name-and-job {
+    text-align: center;
+    color:#fff;
+}
+.person-name {
+    font-size: 18px;
+    font-family: "Livvic-700", sans-serif;
+}
+.person-job {
+    font-size: 15px;
+}
+
+.special-name {
+    margin-top:35px;
+    text-align:center;
+    font-size: 18px;
+    font-family:"Livvic-700",sans-serif;
+    margin-bottom: 8px;
+}
+.specials-desc {
+    margin-right: auto;
+    margin-left: auto;
+    text-align:center;
+    font-size: 15px;
+    font-family: "Livvic-600", sans-serif;
+    width: 100%;
+    max-width: 254px;
+    margin-bottom: 24px;
+    color: #fff;
+}
+.links {
+    margin-right: auto;
+    margin-left: auto;
+    width:100%;
+    max-width: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .add-button {
+    width: 50px;
+    height: 50px;
+    background-color: #ff6b6b;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     position:center; 
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+} */
+
+
+
+.link-twitter:hover svg path {
+    fill: #f67e7e;
+}
+
+.link-linkedin:hover svg path {
+    fill: #f67e7e;
+}
+
+
+/* ADDS STYLES */
+
+.clients {
+
+background-image: url(../img/bg-pattern-about-4.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+
+}
+
+.clients-title {
+    color: #fff;
+    font-size: 48px;
+    font-family: "Livvic-700", sans-serif;
+    text-align:center;
+    margin-bottom: 64px;
+}
+.clients-logos {
+    display: flex ;
+    justify-content: space-between;
+}

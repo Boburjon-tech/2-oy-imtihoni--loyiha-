@@ -1,0 +1,174 @@
+@import "../css/global.css";
+
+.hero {
+    padding-top: 5.6rem;
+    background-color: #014e56;
+    color: #fff;
+    padding-bottom: 25rem;
+    background-image: url(../img/bg-pattern-home-1.svg), url(../img/bg-pattern-home-2.svg);
+    background-repeat: no-repeat;
+    background-position: top 12.9rem left -100px, bottom right 16.5rem;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-title {
+    width: 100%;
+    max-width: 535px;
+    font-family: "Livvic-700", sans-serif;
+    font-size: 10rem;
+    line-height: 1;
+}
+
+
+
+.hero-description {
+    width: 100%;
+    max-width: 445px;
+}
+
+.hero-description-text {
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.hero-divader {
+    margin-bottom: 7.9rem;
+}
+ /*HERO STYLES END */
+
+ /* FEATURES */
+
+ .features {
+    padding-top:  14rem;
+    padding-bottom: 14rem;
+    background-color: #012f34;
+    background-image: url(../img/bg-pattern-home-3.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right -100px;
+    color: #fff;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-content {
+    width: 100%;
+    max-width: 445px;
+}
+.features-divader {
+    margin-bottom: 5.4rem;
+}
+.features-title {
+    font-size: 4.8rem;
+    line-height: 1;
+}
+.features-list-wrapper {
+    width: 100%;
+    max-width: 540px;
+    margin-top: 5.4rem;
+}
+.features-list {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+.features-item {
+    display: flex;
+    gap: 2.3rem;
+}
+.features-image {
+}
+.features-item-content {
+
+}
+.features-item-title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+.features-item-text {
+    font-size: 1.5rem;
+    opacity: 0.8;
+}
+
+/* FEATURES-END */
+
+/* STORIES STYLES START */
+
+.stories {
+    padding-top: 14rem;
+    padding-bottom:14rem;
+    background-color: #004047;
+}
+
+.stories-title {
+    color: #fff;
+    text-align: center;
+    font-size: 4.8rem;
+    line-height: 1;
+    font-family: "Livvic-700", sans-serif;
+    width:100%;
+    max-width: 932px;
+    height: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5.6rem;
+}
+
+.stories-container {
+}
+
+.stories-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.persons-stories {
+    text-align: center;
+    
+}
+
+.stories-text {
+    padding-top: 3.6rem;
+    color: #fff;
+    width: 350px;
+    font-size: 1.5rem;
+    font-family: "Livvic-600", sans-serif;
+    background-image: url("../img/icon-quotes.svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-bottom: 2.4rem;
+}
+
+.stories-person {
+    margin-bottom: 3.2rem;
+}
+
+.stories-person-name {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    margin-bottom: 0.2rem;
+}
+
+.stories-person-job {
+    font-family:"Livvic-italic", sans-serif;
+    color:#fff;
+    font-size: 1.3rem;
+    line-height: 1.3;
+    font-weight: 500;
+}
+
+.stories-person-image {
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+    border: 2px solid #79C8C7;
+}
+
+/* STORIES END */
